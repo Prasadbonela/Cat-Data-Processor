@@ -18,7 +18,7 @@ The purring contest checks how loud a cat purrs.
 
 Please implement methods in the [CatDataProcessor](src/main/java/com/epam/autotasks/CatDataProcessor.java) class.
 
-- `public ImmutableTable<String, Cat.Breed, Integer> createCatTable(List<Cat> cats)` - returns an immutable table of the given _cats_ with name as a row key, breed as a column key and contest results as value.
+- `public ImmutableTable<String, Cat.Breed, Integer> createCatTable(List<Cat> cats)` - returns an immutable table of the given _cats_ with non-empty name as a row key, breed as a column key and contest results as value.
 - `public JSONArray createCatJson(List<Cat> cats)` - returns a JSON array of the given _cats_, mapped to JSON objects.
 
 1. All cat fields can be null.
